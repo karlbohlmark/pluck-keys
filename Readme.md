@@ -1,4 +1,3 @@
-
 # pluck-keys
 
   pick keys of object
@@ -13,6 +12,7 @@
 
 
 ## API
+```javascript
 pluckKeys = require('pluck-keys')
 
 name = pluckKeys("firstname", "lastname")
@@ -25,7 +25,7 @@ var user = {
 }
 
 var nameProps = name(user) // { firstname: "Azealia", lastname: "Banks" }
-
+```
 ## License
 
   MIT
