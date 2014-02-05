@@ -6,7 +6,7 @@
   "scripts": {
     "test": "./node_modules/.bin/tap test.js"
   },
-  "repository": "",
+  "repository": "git@github.com:karlbohlmark/pluck-keys.git",
   "author": {
     "name": "Karl Böhlmark",
     "email": "karl.bohlmark@gmail.com"
