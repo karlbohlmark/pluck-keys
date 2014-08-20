@@ -4,7 +4,7 @@
   "description": "pick keys of object",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/tap test.js"
+    "test": "node test.js"
   },
   "repository": "git@github.com:karlbohlmark/pluck-keys.git",
   "author": {
