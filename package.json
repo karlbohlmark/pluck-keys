@@ -11,7 +11,7 @@
     "name": "Karl Böhlmark",
     "email": "karl.bohlmark@gmail.com"
   },
-  "license": "BSD",
+  "license": "MIT",
   "devDependencies": {
     "tap": "^0.4.1"
   },
