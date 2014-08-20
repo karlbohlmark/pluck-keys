@@ -15,8 +15,6 @@
 ```javascript
 pluckKeys = require('pluck-keys')
 
-name = pluckKeys("firstname", "lastname")
-
 var user = {
   email: "user@domain.com",
   firstname: "Azealia",
@@ -24,7 +22,7 @@ var user = {
   password: "yungrapunxel"
 }
 
-var nameProps = name(user) // { firstname: "Azealia", lastname: "Banks" }
+var nameProps = pluckKeys(['firstname', 'lastname'], user) // { firstname: "Azealia", lastname: "Banks" }
 ```
 ## License
 
