@@ -1,6 +1,6 @@
 {
   "name": "pluck-keys",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "pick keys of object",
   "main": "index.js",
   "scripts": {
