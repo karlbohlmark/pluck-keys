@@ -6,7 +6,10 @@
   "scripts": {
     "test": "node test.js"
   },
-  "repository": "git@github.com:karlbohlmark/pluck-keys.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:karlbohlmark/pluck-keys.git"
+  },
   "author": {
     "name": "Karl Böhlmark",
     "email": "karl.bohlmark@gmail.com"
