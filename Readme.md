@@ -12,20 +12,20 @@
 
 
 ## API
-```javascript
-pluckKeys = require('pluck-keys')
 
-name = pluckKeys("firstname", "lastname")
+  ```javascript
+  pluckKeys = require('pluck-keys')
 
-var user = {
-  email: "user@domain.com",
-  firstname: "Azealia",
-  lastname: "Banks",
-  password: "yungrapunxel"
-}
+  var user = {
+    email: "user@domain.com",
+    firstname: "Azealia",
+    lastname: "Banks",
+    password: "yungrapunxel"
+  }
 
-var nameProps = name(user) // { firstname: "Azealia", lastname: "Banks" }
-```
+  var nameProps = pluckKeys(['firstname', 'lastname'], user) // { firstname: "Azealia", lastname: "Banks" }
+  ```
+
 ## License
 
   MIT

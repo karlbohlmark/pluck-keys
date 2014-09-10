@@ -2,7 +2,7 @@
   "name": "pluck-keys",
   "repo": "karlbohlmark/pluck-keys",
   "description": "pick keys of object",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "keywords": ["object", "keys", "projection", "subset"],
   "dependencies": {},
   "development": {},
